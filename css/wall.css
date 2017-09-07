@@ -1,0 +1,17 @@
+/*
+
+http://lokeshdhakar.com/projects/lightbox2/
+
+*/
+
+.col-img {
+    float: left;
+    width: 25%;
+    display: block;
+    transition: all 200ms linear;
+}
+
+.col-img:hover {
+    transform: scale(1.09, 1.09);
+    /*box-shadow: 1px 2px 1px black;*/
+}
